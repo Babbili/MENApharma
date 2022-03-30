@@ -7,8 +7,10 @@
     --container-color: hsl(213, 78%, 8%);
     --input-color: hsl(213, 9%, 50%);
     --border-color: hsl(213, 9%, 80%);
-    --body-background: radial-gradient(100% 225% at 100% 0%, #FAFF00 0%, #000000 100%), linear-gradient(235deg, #DB00FF 0%, #000000 100%), linear-gradient(45deg, #241E92 0%, #241E92 40%, #5432D3 40%, #5432D3 50%, #7B6CF6 50%, #7B6CF6 70%, #E5A5FF 70%, #E5A5FF 100%), linear-gradient(180deg, #01024E 0%, #01024E 43%, #543864 43%, #543864 62%, #8B4367 62%, #8B4367 80%, #FF6464 80%, #FF6464 100%);
+    --body-background: radial-gradient(100% 225% at 100% 0%, #FAFF00 0%, #000000 100%), linear-gradient(235deg, #DB00FF 0%, #000000 100%), linear-gradient(45deg, #241E92 0%, #241E92 40%, #5432D3 40%, #5432D3 50%, #01024E 50%, #01024E 70%, #01024E 70%, #01024E 100%), linear-gradient(180deg, #01024E 0%, #01024E 43%, #01024E 43%, #543864 62%, #01024E 62%, #01024E 80%, #01024E 80%, #01024E 100%);
         
+    --background-menu : radial-gradient(100% 225% at 100% 0%, #2c005e 10%, #000000 50%), linear-gradient(235deg, #2d1064 50%, #000000 70%);
+
     --background-button: radial-gradient(100% 225% at 100% 0%, #2c005e 10%, #000000 50%), linear-gradient(235deg, #2d1064 50%, #000000 70%);
 
     --background-button-alt: radial-gradient(100% 225% at 100% 0%, #542a85 10%, #bd4343 50%), linear-gradient(235deg, #682d8f 40%, #b34949 70%);
@@ -17,7 +19,7 @@
 
     --link-background-active: radial-gradient(100% 225% at 60% 30%, #8400ff 10%, #000000 100%), linear-gradient(235deg, #8400ff 0%, #000000 100%);
 
-    --background-blend: overlay, hard-light, overlay, normal;
+    --background-blend: overlay, hard-light, overlay, overlay;
   
     --body-font: "Poppins", sans-serif;
     --biggest-font-size: 5rem;
@@ -90,13 +92,15 @@ body.light__theme {
   --body-color: hsl(243, 28%, 95%);
   --input-color: hsl(213, 9%, 38%);
 
-  --body-background: linear-gradient(125deg, #FDFF9C 0%, #0500FF 100%), linear-gradient(180deg, #D3D3D3 0%, #161616 100%), linear-gradient(310deg, #00F0FF 0%, #00F0FF 20%, #0017E3 calc(20% + 1px), #0017E3 40%, #000F8F calc(40% + 1px), #000F8F 70%, #00073F calc(70% + 1px), #00073F 100%), linear-gradient(285deg, #FFB6B9 0%, #FFB6B9 35%, #FAE3D9 calc(35% + 1px), #FAE3D9 45%, #BBDED6 calc(45% + 1px), #BBDED6 65%, #61C0BF calc(65% + 1px), #61C0BF 100%);
+  --body-background: linear-gradient(310.44deg, hsl(340, 96%, 90%) 0%, hsl(240, 100%, 98%) 74%);
 
- --background-blend : overlay, overlay, exclusion, normal;
+ --background-blend : lighten;
 
- --background-button: linear-gradient(125deg, #FDFF9C 0%, #0500FF 100%), linear-gradient(180deg, #D3D3D3 0%, #161616 100%), linear-gradient(310deg, #00F0FF 0%, #00F0FF 20%, #0017E3 calc(20% + 1px), #0017E3 40%, #000F8F calc(40% + 1px), #000F8F 70%, #00073F calc(70% + 1px), #00073F 100%), linear-gradient(285deg, #FFB6B9 0%, #FFB6B9 35%, #FAE3D9 calc(35% + 1px), #FAE3D9 45%, #BBDED6 calc(45% + 1px), #BBDED6 65%, #61C0BF calc(65% + 1px), #61C0BF 100%);
+ --background-menu: linear-gradient(125deg, #FDFF9C 0%, #0500FF 100%), linear-gradient(180deg, #D3D3D3 0%, #161616 100%), linear-gradient(310deg, #00F0FF 0%, #00F0FF 20%, #0017E3 calc(20% + 1px), #0017E3 40%, #000F8F calc(40% + 1px), #000F8F 70%, #00073F calc(70% + 1px), #00073F 100%), linear-gradient(285deg, #FFB6B9 0%, #FFB6B9 35%, #FAE3D9 calc(35% + 1px), #FAE3D9 45%, #BBDED6 calc(45% + 1px), #BBDED6 65%, #61C0BF calc(65% + 1px), #61C0BF 100%);
 
- --background-button-alt: linear-gradient(125deg, #FDFF9C 0%, #0500FF 100%), linear-gradient(180deg, #D3D3D3 0%, #161616 100%), linear-gradient(310deg, #00F0FF 0%, #00F0FF 20%, #0017E3 calc(20% + 1px), #0017E3 40%, #000F8F calc(40% + 1px), #000F8F 70%, #00073F calc(70% + 1px), #00073F 100%), linear-gradient(285deg, #FFB6B9 0%, #FFB6B9 35%, #FAE3D9 calc(35% + 1px), #FAE3D9 45%, #BBDED6 calc(45% + 1px), #BBDED6 65%, #61C0BF calc(65% + 1px), #61C0BF 100%);
+ --background-button: linear-gradient(310.44deg, hsl(340, 100%, 70%) 0%, hsl(240, 100%, 65%) 74%); 
+
+ --background-button-alt: linear-gradient(310.44deg, hsl(340, 100%, 70%) 0%, hsl(240, 100%, 65%) 74%); 
 
  --link-background: linear-gradient(125deg, #FDFF9C 0%, #0500FF 100%), linear-gradient(180deg, #D3D3D3 0%, #161616 100%), linear-gradient(310deg, #00F0FF 0%, #00F0FF 20%, #0017E3 calc(20% + 1px), #0017E3 40%, #000F8F calc(40% + 1px), #000F8F 70%, #00073F calc(70% + 1px), #00073F 100%), linear-gradient(285deg, #FFB6B9 0%, #FFB6B9 35%, #FAE3D9 calc(35% + 1px), #FAE3D9 45%, #BBDED6 calc(45% + 1px), #BBDED6 65%, #61C0BF calc(65% + 1px), #61C0BF 100%);
 
@@ -141,9 +145,9 @@ img {
 }
 .bd-container {
   max-width: 968px;
-  width: calc(100% - var(--mb-3));
-  margin-left: var(--mb-1-5);
-  margin-right: var(--mb-1-5);
+  width: 100%;
+  padding-left: var(--mb-1-5);
+  padding-right: var(--mb-1-5);
 }
 .bd-grid{
   display: grid;
@@ -271,7 +275,7 @@ header {
   right: 0;
   width: 100%;
   height: 100%;
-  background: var(--background-button);
+  background: var(--background-menu);
   transition: .3s;
   z-index: var(--z-fixed);
 }
@@ -539,7 +543,9 @@ header {
 /*==================== Footer =*/
 .footer {
   margin: 0 auto;
-  padding: 4rem 0 2rem 0;
+  max-width: 968px;
+  width: 100%;
+  padding: 4rem var(--mb-1-5) 2rem var(--mb-1-5);
 }
 .footer__container{
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
