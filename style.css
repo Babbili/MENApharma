@@ -405,7 +405,7 @@ header {
   max-width: 650px;
   width: 90%;
   margin: 0 auto;
-  padding: var(--mb-2) var(--mb-1-5);
+  padding: var(--mb-2) var(--mb-1);
   border-radius: 1rem;
 }
 .about__description p, .mission__description p, .services__description p {
