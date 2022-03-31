@@ -92,15 +92,15 @@ body.light__theme {
   --body-color: hsl(243, 28%, 95%);
   --input-color: hsl(213, 9%, 38%);
 
-  --body-background: linear-gradient(310.44deg, hsl(340, 96%, 90%) 0%, hsl(240, 100%, 98%) 74%);
+  --body-background: radial-gradient(100% 225% at 100% 0%, hsl(61, 100%, 60%) 0%, hsl(0, 0%, 85%) 100%), linear-gradient(235deg, hsl(292, 100%, 80%) 0%, hsl(0, 0%, 85%) 100%), linear-gradient(45deg, hsl(243, 66%, 55%) 0%, hsl(243, 66%, 55%) 40%, hsl(253, 65%, 41%) 40%, hsl(253, 65%, 41%) 50%, hsl(239, 97%, 65%) 50%, hsl(239, 97%, 65%) 70%, hsl(239, 97%, 75%) 70%, hsl(239, 97%, 75%) 100%), linear-gradient(180deg, hsl(239, 97%, 75%) 0%, hsl(239, 97%, 75%) 43%, hsl(239, 97%, 75%) 43%, hsl(278, 28%, 71%) 62%, hsl(239, 97%, 75%) 62%, hsl(239, 97%, 75%) 80%, hsl(239, 97%, 75%) 80%, hsl(239, 97%, 70%) 100%);
 
- --background-blend : lighten;
+ --background-blend : overlay, hard-light, overlay, overlay;
 
  --background-menu: linear-gradient(125deg, #FDFF9C 0%, #0500FF 100%), linear-gradient(180deg, #D3D3D3 0%, #161616 100%), linear-gradient(310deg, #00F0FF 0%, #00F0FF 20%, #0017E3 calc(20% + 1px), #0017E3 40%, #000F8F calc(40% + 1px), #000F8F 70%, #00073F calc(70% + 1px), #00073F 100%), linear-gradient(285deg, #FFB6B9 0%, #FFB6B9 35%, #FAE3D9 calc(35% + 1px), #FAE3D9 45%, #BBDED6 calc(45% + 1px), #BBDED6 65%, #61C0BF calc(65% + 1px), #61C0BF 100%);
 
- --background-button: linear-gradient(310.44deg, hsl(340, 100%, 70%) 0%, hsl(240, 100%, 65%) 74%); 
+ --background-button: linear-gradient(125deg, #FDFF9C 0%, #0500FF 110%);
 
- --background-button-alt: linear-gradient(310.44deg, hsl(340, 100%, 70%) 0%, hsl(240, 100%, 65%) 74%); 
+ --background-button-alt: linear-gradient(125deg, #FDFF9C 0%, #0500FF 110%);
 
  --link-background: linear-gradient(125deg, #FDFF9C 0%, #0500FF 100%), linear-gradient(180deg, #D3D3D3 0%, #161616 100%), linear-gradient(310deg, #00F0FF 0%, #00F0FF 20%, #0017E3 calc(20% + 1px), #0017E3 40%, #000F8F calc(40% + 1px), #000F8F 70%, #00073F calc(70% + 1px), #00073F 100%), linear-gradient(285deg, #FFB6B9 0%, #FFB6B9 35%, #FAE3D9 calc(35% + 1px), #FAE3D9 45%, #BBDED6 calc(45% + 1px), #BBDED6 65%, #61C0BF calc(65% + 1px), #61C0BF 100%);
 
